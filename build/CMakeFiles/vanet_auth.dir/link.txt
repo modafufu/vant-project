@@ -1,0 +1,1 @@
+/usr/lib/ccache/c++ -g -g3 -O0 CMakeFiles/vanet_auth.dir/src/main.cpp.o CMakeFiles/vanet_auth.dir/src/initialization.cpp.o CMakeFiles/vanet_auth.dir/src/registration.cpp.o -o vanet_auth   -L/usr/local/lib  -Wl,-rpath,/usr/local/lib: -lsnark -lff /usr/lib/x86_64-linux-gnu/libgmp.so -lgmp -lgmpxx -lssl -lcrypto -lpthread -ldl 
