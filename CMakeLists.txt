@@ -26,6 +26,10 @@ link_directories(
 
 add_executable(vanet_auth
     src/main.cpp
+    src/initialization.cpp
+    src/registration.cpp
+    src/session.cpp
+    src/verification.cpp
     src/zk_snark.cpp
 )
 

@@ -89,9 +89,61 @@ CMakeFiles/vanet_auth.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vanet_auth.dir/src/main.cpp.s"
 	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/veins/vanet-project/src/main.cpp -o CMakeFiles/vanet_auth.dir/src/main.cpp.s
 
+CMakeFiles/vanet_auth.dir/src/initialization.cpp.o: CMakeFiles/vanet_auth.dir/flags.make
+CMakeFiles/vanet_auth.dir/src/initialization.cpp.o: ../src/initialization.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/veins/vanet-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/vanet_auth.dir/src/initialization.cpp.o"
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vanet_auth.dir/src/initialization.cpp.o -c /home/veins/vanet-project/src/initialization.cpp
+
+CMakeFiles/vanet_auth.dir/src/initialization.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vanet_auth.dir/src/initialization.cpp.i"
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/veins/vanet-project/src/initialization.cpp > CMakeFiles/vanet_auth.dir/src/initialization.cpp.i
+
+CMakeFiles/vanet_auth.dir/src/initialization.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vanet_auth.dir/src/initialization.cpp.s"
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/veins/vanet-project/src/initialization.cpp -o CMakeFiles/vanet_auth.dir/src/initialization.cpp.s
+
+CMakeFiles/vanet_auth.dir/src/registration.cpp.o: CMakeFiles/vanet_auth.dir/flags.make
+CMakeFiles/vanet_auth.dir/src/registration.cpp.o: ../src/registration.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/veins/vanet-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/vanet_auth.dir/src/registration.cpp.o"
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vanet_auth.dir/src/registration.cpp.o -c /home/veins/vanet-project/src/registration.cpp
+
+CMakeFiles/vanet_auth.dir/src/registration.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vanet_auth.dir/src/registration.cpp.i"
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/veins/vanet-project/src/registration.cpp > CMakeFiles/vanet_auth.dir/src/registration.cpp.i
+
+CMakeFiles/vanet_auth.dir/src/registration.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vanet_auth.dir/src/registration.cpp.s"
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/veins/vanet-project/src/registration.cpp -o CMakeFiles/vanet_auth.dir/src/registration.cpp.s
+
+CMakeFiles/vanet_auth.dir/src/session.cpp.o: CMakeFiles/vanet_auth.dir/flags.make
+CMakeFiles/vanet_auth.dir/src/session.cpp.o: ../src/session.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/veins/vanet-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/vanet_auth.dir/src/session.cpp.o"
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vanet_auth.dir/src/session.cpp.o -c /home/veins/vanet-project/src/session.cpp
+
+CMakeFiles/vanet_auth.dir/src/session.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vanet_auth.dir/src/session.cpp.i"
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/veins/vanet-project/src/session.cpp > CMakeFiles/vanet_auth.dir/src/session.cpp.i
+
+CMakeFiles/vanet_auth.dir/src/session.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vanet_auth.dir/src/session.cpp.s"
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/veins/vanet-project/src/session.cpp -o CMakeFiles/vanet_auth.dir/src/session.cpp.s
+
+CMakeFiles/vanet_auth.dir/src/verification.cpp.o: CMakeFiles/vanet_auth.dir/flags.make
+CMakeFiles/vanet_auth.dir/src/verification.cpp.o: ../src/verification.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/veins/vanet-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/vanet_auth.dir/src/verification.cpp.o"
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vanet_auth.dir/src/verification.cpp.o -c /home/veins/vanet-project/src/verification.cpp
+
+CMakeFiles/vanet_auth.dir/src/verification.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vanet_auth.dir/src/verification.cpp.i"
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/veins/vanet-project/src/verification.cpp > CMakeFiles/vanet_auth.dir/src/verification.cpp.i
+
+CMakeFiles/vanet_auth.dir/src/verification.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vanet_auth.dir/src/verification.cpp.s"
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/veins/vanet-project/src/verification.cpp -o CMakeFiles/vanet_auth.dir/src/verification.cpp.s
+
 CMakeFiles/vanet_auth.dir/src/zk_snark.cpp.o: CMakeFiles/vanet_auth.dir/flags.make
 CMakeFiles/vanet_auth.dir/src/zk_snark.cpp.o: ../src/zk_snark.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/veins/vanet-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/vanet_auth.dir/src/zk_snark.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/veins/vanet-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/vanet_auth.dir/src/zk_snark.cpp.o"
 	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vanet_auth.dir/src/zk_snark.cpp.o -c /home/veins/vanet-project/src/zk_snark.cpp
 
 CMakeFiles/vanet_auth.dir/src/zk_snark.cpp.i: cmake_force
@@ -105,17 +157,25 @@ CMakeFiles/vanet_auth.dir/src/zk_snark.cpp.s: cmake_force
 # Object files for target vanet_auth
 vanet_auth_OBJECTS = \
 "CMakeFiles/vanet_auth.dir/src/main.cpp.o" \
+"CMakeFiles/vanet_auth.dir/src/initialization.cpp.o" \
+"CMakeFiles/vanet_auth.dir/src/registration.cpp.o" \
+"CMakeFiles/vanet_auth.dir/src/session.cpp.o" \
+"CMakeFiles/vanet_auth.dir/src/verification.cpp.o" \
 "CMakeFiles/vanet_auth.dir/src/zk_snark.cpp.o"
 
 # External object files for target vanet_auth
 vanet_auth_EXTERNAL_OBJECTS =
 
 vanet_auth: CMakeFiles/vanet_auth.dir/src/main.cpp.o
+vanet_auth: CMakeFiles/vanet_auth.dir/src/initialization.cpp.o
+vanet_auth: CMakeFiles/vanet_auth.dir/src/registration.cpp.o
+vanet_auth: CMakeFiles/vanet_auth.dir/src/session.cpp.o
+vanet_auth: CMakeFiles/vanet_auth.dir/src/verification.cpp.o
 vanet_auth: CMakeFiles/vanet_auth.dir/src/zk_snark.cpp.o
 vanet_auth: CMakeFiles/vanet_auth.dir/build.make
 vanet_auth: /usr/lib/x86_64-linux-gnu/libgmp.so
 vanet_auth: CMakeFiles/vanet_auth.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/veins/vanet-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable vanet_auth"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/veins/vanet-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable vanet_auth"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/vanet_auth.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
