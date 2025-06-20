@@ -35,4 +35,17 @@ KeyPair generate_key_pair();
 std::string compute_node_id(const alt_bn128_G1& public_key);
 void register_entity(const std::string& entity_type, const std::string& entity_id);
 
+
+
+struct SessionKey {
+    std::string party_a_id;
+    std::string party_b_id;
+    alt_bn128_G1 shared_point;      // 椭圆曲线上的共享点
+    std::string session_key_hex;    // 哈希后的会话密钥
+};
+
+// 会话密钥协商接口
+SessionKey establish_session_key(const KeyPair& a_keys, const KeyPair& b_keys);
+
+
 #endif // VANET_H

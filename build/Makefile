@@ -188,33 +188,6 @@ vanet_auth/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vanet_auth.dir/build.make CMakeFiles/vanet_auth.dir/build
 .PHONY : vanet_auth/fast
 
-src/initialization.o: src/initialization.cpp.o
-
-.PHONY : src/initialization.o
-
-# target to build an object file
-src/initialization.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vanet_auth.dir/build.make CMakeFiles/vanet_auth.dir/src/initialization.cpp.o
-.PHONY : src/initialization.cpp.o
-
-src/initialization.i: src/initialization.cpp.i
-
-.PHONY : src/initialization.i
-
-# target to preprocess a source file
-src/initialization.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vanet_auth.dir/build.make CMakeFiles/vanet_auth.dir/src/initialization.cpp.i
-.PHONY : src/initialization.cpp.i
-
-src/initialization.s: src/initialization.cpp.s
-
-.PHONY : src/initialization.s
-
-# target to generate assembly for a file
-src/initialization.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vanet_auth.dir/build.make CMakeFiles/vanet_auth.dir/src/initialization.cpp.s
-.PHONY : src/initialization.cpp.s
-
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -242,32 +215,32 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vanet_auth.dir/build.make CMakeFiles/vanet_auth.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/registration.o: src/registration.cpp.o
+src/zk_snark.o: src/zk_snark.cpp.o
 
-.PHONY : src/registration.o
+.PHONY : src/zk_snark.o
 
 # target to build an object file
-src/registration.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vanet_auth.dir/build.make CMakeFiles/vanet_auth.dir/src/registration.cpp.o
-.PHONY : src/registration.cpp.o
+src/zk_snark.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vanet_auth.dir/build.make CMakeFiles/vanet_auth.dir/src/zk_snark.cpp.o
+.PHONY : src/zk_snark.cpp.o
 
-src/registration.i: src/registration.cpp.i
+src/zk_snark.i: src/zk_snark.cpp.i
 
-.PHONY : src/registration.i
+.PHONY : src/zk_snark.i
 
 # target to preprocess a source file
-src/registration.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vanet_auth.dir/build.make CMakeFiles/vanet_auth.dir/src/registration.cpp.i
-.PHONY : src/registration.cpp.i
+src/zk_snark.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vanet_auth.dir/build.make CMakeFiles/vanet_auth.dir/src/zk_snark.cpp.i
+.PHONY : src/zk_snark.cpp.i
 
-src/registration.s: src/registration.cpp.s
+src/zk_snark.s: src/zk_snark.cpp.s
 
-.PHONY : src/registration.s
+.PHONY : src/zk_snark.s
 
 # target to generate assembly for a file
-src/registration.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vanet_auth.dir/build.make CMakeFiles/vanet_auth.dir/src/registration.cpp.s
-.PHONY : src/registration.cpp.s
+src/zk_snark.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vanet_auth.dir/build.make CMakeFiles/vanet_auth.dir/src/zk_snark.cpp.s
+.PHONY : src/zk_snark.cpp.s
 
 # Help Target
 help:
@@ -282,15 +255,12 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... vanet_auth"
-	@echo "... src/initialization.o"
-	@echo "... src/initialization.i"
-	@echo "... src/initialization.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/registration.o"
-	@echo "... src/registration.i"
-	@echo "... src/registration.s"
+	@echo "... src/zk_snark.o"
+	@echo "... src/zk_snark.i"
+	@echo "... src/zk_snark.s"
 .PHONY : help
 
 

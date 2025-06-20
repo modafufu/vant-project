@@ -4,22 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/veins/vanet-project/src/initialization.cpp" "/home/veins/vanet-project/build/CMakeFiles/vanet_auth.dir/src/initialization.cpp.o"
   "/home/veins/vanet-project/src/main.cpp" "/home/veins/vanet-project/build/CMakeFiles/vanet_auth.dir/src/main.cpp.o"
-  "/home/veins/vanet-project/src/registration.cpp" "/home/veins/vanet-project/build/CMakeFiles/vanet_auth.dir/src/registration.cpp.o"
+  "/home/veins/vanet-project/src/zk_snark.cpp" "/home/veins/vanet-project/build/CMakeFiles/vanet_auth.dir/src/zk_snark.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
-
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_CXX
-  "CURVE_ALT_BN128"
-  )
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
-  "../libsnark"
-  "../libff"
   )
 
 # Targets to which this target links.

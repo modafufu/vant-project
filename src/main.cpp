@@ -1,18 +1,36 @@
-#include "../include/vanet.h"
+#include "zk_snark.h"
+#include <iostream>
 
 int main() {
-    // 1. 系统初始化
-    SystemParams params;
-    params.curve_name = "alt_bn128";
-    params.security_param = 256;  // 256位安全性
-    params.hash_algorithm = "SHA256";
-    
-    initialize_system(params);
-    generate_global_parameters();
-    
-    // 2. 注册RSU和车辆
-    register_entity("RSU", "RSU_001");
-    register_entity("车辆", "Vehicle_001");
-    
+    // 1. Setup 阶段
+    PublicParams pp;
+    pp.g = 2;
+    pp.q = 104729; // 一个大素数
+    pp.lambda = 4;
+
+    int lambda;
+    Poly R;
+    setup(pp, lambda, R);
+    std::cout << "Setup: lambda = " << lambda << ", R(x) = ";
+    for (size_t i = 0; i < R.coeffs.size(); ++i) {
+        std::cout << R.coeffs[i];
+        if (i < R.coeffs.size() - 1) std::cout << ", ";
+    }
+    std::cout << std::endl;
+
+    // 2. Prover 阶段
+    mpz_class x0 = 42; // 车辆/节点的私有值
+    mpz_class C;
+    Proof proof;
+    prover(lambda, R, x0, C, proof, pp);
+
+    std::cout << "Prover: x0 = " << x0 << std::endl;
+    std::cout << "Commitment C = " << C << std::endl;
+    std::cout << "Proof π = " << proof.pi << std::endl;
+
+    // 3. Verify 阶段
+    bool ok = verify(C, proof, pp, R, x0);
+    std::cout << "Verification Result: " << (ok ? "T (通过)" : "F (拒绝)") << std::endl;
+
     return 0;
 }
