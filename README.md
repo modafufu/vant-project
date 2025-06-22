@@ -2,6 +2,8 @@
 git clone https://github.com/scipr-lab/libfqfft.git
 git clone https://github.com/scipr-lab/libff.git
 git clone https://github.com/scipr-lab/libsnark.git
+
+
 克隆成功的话，进行编译安装
 cd libfqfft
 mkdir build && cd build
