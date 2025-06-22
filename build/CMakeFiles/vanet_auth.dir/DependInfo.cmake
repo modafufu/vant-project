@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/veins/vanet-project/src/initialization.cpp" "/home/veins/vanet-project/build/CMakeFiles/vanet_auth.dir/src/initialization.cpp.o"
-  "/home/veins/vanet-project/src/main.cpp" "/home/veins/vanet-project/build/CMakeFiles/vanet_auth.dir/src/main.cpp.o"
-  "/home/veins/vanet-project/src/registration.cpp" "/home/veins/vanet-project/build/CMakeFiles/vanet_auth.dir/src/registration.cpp.o"
-  "/home/veins/vanet-project/src/session.cpp" "/home/veins/vanet-project/build/CMakeFiles/vanet_auth.dir/src/session.cpp.o"
-  "/home/veins/vanet-project/src/verification.cpp" "/home/veins/vanet-project/build/CMakeFiles/vanet_auth.dir/src/verification.cpp.o"
-  "/home/veins/vanet-project/src/zk_snark.cpp" "/home/veins/vanet-project/build/CMakeFiles/vanet_auth.dir/src/zk_snark.cpp.o"
+  "/home/veins/vant-project/src/initialization.cpp" "/home/veins/vant-project/build/CMakeFiles/vanet_auth.dir/src/initialization.cpp.o"
+  "/home/veins/vant-project/src/main.cpp" "/home/veins/vant-project/build/CMakeFiles/vanet_auth.dir/src/main.cpp.o"
+  "/home/veins/vant-project/src/registration.cpp" "/home/veins/vant-project/build/CMakeFiles/vanet_auth.dir/src/registration.cpp.o"
+  "/home/veins/vant-project/src/session.cpp" "/home/veins/vant-project/build/CMakeFiles/vanet_auth.dir/src/session.cpp.o"
+  "/home/veins/vant-project/src/verification.cpp" "/home/veins/vant-project/build/CMakeFiles/vanet_auth.dir/src/verification.cpp.o"
+  "/home/veins/vant-project/src/zk_snark.cpp" "/home/veins/vant-project/build/CMakeFiles/vanet_auth.dir/src/zk_snark.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -40,45 +40,45 @@ vector
 string
 -
 
-/home/veins/vanet-project/src/initialization.cpp
+/home/veins/vant-project/src/initialization.cpp
 initialization.h
-/home/veins/vanet-project/src/initialization.h
+/home/veins/vant-project/src/initialization.h
 iostream
 -
 
-/home/veins/vanet-project/src/main.cpp
+/home/veins/vant-project/src/main.cpp
 iostream
 -
 initialization.h
-/home/veins/vanet-project/src/initialization.h
+/home/veins/vant-project/src/initialization.h
 registration.h
-/home/veins/vanet-project/src/registration.h
+/home/veins/vant-project/src/registration.h
 session.h
-/home/veins/vanet-project/src/session.h
+/home/veins/vant-project/src/session.h
 verification.h
-/home/veins/vanet-project/src/verification.h
+/home/veins/vant-project/src/verification.h
 
-/home/veins/vanet-project/src/registration.cpp
+/home/veins/vant-project/src/registration.cpp
 registration.h
-/home/veins/vanet-project/src/registration.h
+/home/veins/vant-project/src/registration.h
 iostream
 -
 
-/home/veins/vanet-project/src/session.cpp
+/home/veins/vant-project/src/session.cpp
 session.h
-/home/veins/vanet-project/src/session.h
+/home/veins/vant-project/src/session.h
 iostream
 -
 
-/home/veins/vanet-project/src/verification.cpp
+/home/veins/vant-project/src/verification.cpp
 verification.h
-/home/veins/vanet-project/src/verification.h
+/home/veins/vant-project/src/verification.h
 iostream
 -
 
-/home/veins/vanet-project/src/zk_snark.cpp
+/home/veins/vant-project/src/zk_snark.cpp
 zk_snark.h
-/home/veins/vanet-project/src/zk_snark.h
+/home/veins/vant-project/src/zk_snark.h
 ctime
 -
 

@@ -4,7 +4,7 @@
 # compile CXX with /usr/lib/ccache/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/veins/vanet-project/include
+CXX_INCLUDES = -I/home/veins/vant-project/include
 
 CXX_FLAGS = -g -g3 -O0 -std=c++17
 
